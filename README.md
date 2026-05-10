@@ -2,7 +2,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-FF4B4B?style=flat-square&logo=streamlit)](https://streamlit.io/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)](https://github.com/tanishanand548/ai-stock-system)
 
 An intelligent stock analysis platform for Indian NSE stocks powered by **AI**, **Technical Analysis**, and **Real-time Market Data**. This project combines machine learning insights with financial expertise to provide actionable trading signals and expert analysis.
@@ -15,7 +14,6 @@ An intelligent stock analysis platform for Indian NSE stocks powered by **AI**, 
 - [Tech Stack](#-tech-stack)
 - [Installation](#-installation)
 - [Quick Start](#-quick-start)
-- [Project Structure](#-project-structure)
 - [How It Works](#-how-it-works)
 - [Configuration](#-configuration)
 - [Usage Guide](#-usage-guide)
@@ -23,9 +21,7 @@ An intelligent stock analysis platform for Indian NSE stocks powered by **AI**, 
 - [Example Outputs](#-example-outputs)
 - [Performance & Metrics](#-performance--metrics)
 - [Troubleshooting](#-troubleshooting)
-- [Future Enhancements](#-future-enhancements)
 - [Contributing](#-contributing)
-- [License](#-license)
 - [Disclaimer](#-disclaimer)
 
 ---
@@ -176,34 +172,6 @@ AI Response: "Based on current analysis:
 - CALL signal indicates upside potential
 - Consider taking profit above ₹3000"
 ```
-
----
-
-## 📁 Project Structure
-
-```
-ai-stock-system/
-│
-├── app.py                 # Main Streamlit application
-├── requirements.txt       # Python dependencies
-├── .env                   # Environment variables (create this)
-├── .gitignore            # Git ignore file
-├── README.md             # This file
-│
-├── docs/
-│   ├── images/
-│   │   ├── dashboard.png           # Dashboard screenshot
-│   │   ├── chart_analysis.png      # Technical analysis chart
-│   │   ├── signal_example.png      # Trading signal example
-│   │   └── chatbot.png             # AI chatbot interface
-│   │
-│   └── SETUP.md          # Detailed setup guide
-│
-└── resources/
-    └── sample_data.csv   # Sample historical data
-```
-
----
 
 ## 🔧 How It Works
 
@@ -445,6 +413,9 @@ Q4 earnings beat has been positive...
 | Historical Data Points | 60 days (~250 trading days) |
 | Real-time Updates | Live ticker |
 
+
+<img width="1836" height="667" alt="image" src="https://github.com/user-attachments/assets/a1698ef9-5776-4da9-a5f8-b420144d0d3a" />
+
 ---
 
 ## 🐛 Troubleshooting
@@ -488,52 +459,6 @@ Q4 earnings beat has been positive...
 - Check internet connection
 - Verify API quota at Google AI Studio
 
----
-
-## 🚀 Future Enhancements
-
-- [ ] **Portfolio Management**: Track multiple stocks
-- [ ] **Alerts**: Price and signal-based notifications
-- [ ] **Backtesting Engine**: Test strategies on historical data
-- [ ] **Predictive ML Models**: LSTM/GRU for price forecasting
-- [ ] **Options Analysis**: Call/Put pricing and Greeks
-- [ ] **Sector Comparison**: Compare stocks within same sector
-- [ ] **Mobile App**: React Native or Flutter app
-- [ ] **Database**: Store historical signals and results
-- [ ] **API Deployment**: REST API for external integrations
-- [ ] **More Indicators**: MACD, Bollinger Bands, Ichimoku
-- [ ] **Real-time Updates**: WebSocket for live data
-- [ ] **Multi-language Support**: Hindi, Regional languages
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how to help:
-
-### Steps to Contribute
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Make your changes
-4. Commit changes (`git commit -m 'Add amazing feature'`)
-5. Push to branch (`git push origin feature/amazing-feature`)
-6. Open a Pull Request
-
-### Areas for Contribution
-- Bug fixes and performance improvements
-- New technical indicators
-- Enhanced AI prompts
-- Documentation improvements
-- Code optimization
-- Test coverage
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## ⚖️ Disclaimer
 
